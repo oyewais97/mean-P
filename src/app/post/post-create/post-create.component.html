@@ -1,0 +1,8 @@
+<mat-form-field>
+   <textarea matInput rows="6" [value]= "newPost" #postinput ></textarea>
+</mat-form-field>
+   <button mat-raised-button (click)='onAddPost(postinput)'> save </button>
+
+
+
+<p>{{ newPost }} </p>
